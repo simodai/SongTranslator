@@ -1,0 +1,18 @@
+* text=auto
+
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.wav binary
+*.mp3 binary
+*.mp4 binary
+*.npy binary
+*.npz binary
+*.bin binary
+*.pt binary
+*.pth binary

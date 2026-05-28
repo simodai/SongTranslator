@@ -1,0 +1,61 @@
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter 缓存
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.trae/
+*.swp
+*.swo
+
+# 输出文件（运行产生，可复现）
+output_project/
+tmp/
+
+# 模型权重大文件（需单独下载）
+*.bin
+*.ot
+*.tflite
+*.onnx
+*.pb
+*.data-*
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.mlpackage/
+*.mlmodel
+
+# 完整模型目录（通过 HuggingFace 下载）
+models/
+
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 测试音频/视频（版权文件，勿上传）
+Chinesesong/
+
+# 个人文档（含隐私信息，勿上传）
+*.docx
+*.doc
+*.pptx
+*.pdf
+
+# 操作系统
+.DS_Store
+Thumbs.db
